@@ -1,0 +1,15 @@
+/* .activities {
+  font-size: 20px;
+  padding: 150px;
+}
+
+.activities */
+
+.acc {
+  margin-top: 80px;
+  margin-left: 200px;
+  line-height: 40px;
+  /* background: url("images/images.png"); */
+  background-size: cover;
+  background-repeat: no-repeat;
+}

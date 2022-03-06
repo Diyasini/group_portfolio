@@ -1,0 +1,30 @@
+.Memeber h1 {
+  text-align: center;
+  margin-top: 0px;
+  font-size: 50px;
+}
+
+.member-list {
+  display: flex;
+  justify-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 80px;
+}
+.member-list p {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+}
+.member-list img {
+  width: 230px;
+  height: 230px;
+  border: 2px solid black;
+  border-radius: 50%;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.member-list img:hover {
+  transform: scale(1.05, 1.05);
+}
